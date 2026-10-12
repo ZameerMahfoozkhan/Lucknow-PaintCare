@@ -10,11 +10,10 @@
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
-  min-height: 84vh;
   display: flex;
-  align-items: center;
-  padding-top: var(--space-4xl);
-  padding-bottom: var(--space-4xl);
+  align-items: flex-start;
+  padding-top: 1.75rem;
+  padding-bottom: 3.5rem;
   color: #FFFFFF;
   overflow: hidden;
 }
