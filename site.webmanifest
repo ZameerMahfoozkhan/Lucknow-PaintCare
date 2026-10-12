@@ -1,0 +1,16 @@
+{
+  "name": "Lucknow PaintCare",
+  "short_name": "PaintCare",
+  "description": "Local home-painting service in Lucknow, Uttar Pradesh, India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F4EE",
+  "theme_color": "#183F35",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

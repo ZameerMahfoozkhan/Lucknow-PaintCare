@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Specifically permit ChatGPT Search crawler for discovery & citations
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Bingbot and other legitimate search engines
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://lucknowpaintcare.in/sitemap.xml

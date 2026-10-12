@@ -1,0 +1,17 @@
+{
+  "name": "lucknow-paintcare-website",
+  "version": "1.0.0",
+  "description": "Production website for Lucknow PaintCare - residential home painting service in Lucknow, UP, India.",
+  "scripts": {
+    "dev": "npx -y serve -l 3000 .",
+    "start": "npx -y serve -l 3000 ."
+  },
+  "keywords": [
+    "lucknow",
+    "home-painting",
+    "house-painters",
+    "interior-painting"
+  ],
+  "author": "Lucknow PaintCare",
+  "license": "ISC"
+}
