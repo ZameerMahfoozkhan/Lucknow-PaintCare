@@ -901,3 +901,124 @@
 .page-hero h1 {
   margin-bottom: var(--space-sm);
 }
+
+/* ==========================================================================
+   Service Pages & Editorial Media Card Styles
+   ========================================================================== */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.08fr 0.92fr;
+    gap: var(--space-3xl);
+  }
+
+  .hero-grid.is-reversed > :first-child {
+    order: 2;
+  }
+  .hero-grid.is-reversed > :last-child {
+    order: 1;
+  }
+}
+
+.hero-media-card {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid rgba(24, 63, 53, 0.12);
+  box-shadow: 0 14px 34px -8px rgba(16, 46, 39, 0.14), 0 4px 12px rgba(16, 46, 39, 0.05);
+  aspect-ratio: 16 / 10.5;
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+  isolation: isolate;
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .hero-media-card {
+    aspect-ratio: 16 / 10;
+    border-radius: var(--radius-lg);
+  }
+}
+
+.hero-media-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle image depth overlay */
+.hero-media-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 46, 39, 0) 50%,
+    rgba(16, 46, 39, 0.42) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Subtle border reflection highlight */
+.hero-media-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero-media-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 44px -10px rgba(16, 46, 39, 0.2), 0 6px 16px rgba(16, 46, 39, 0.08);
+}
+
+.hero-media-card:hover img {
+  transform: scale(1.035);
+}
+
+/* Floating verification / feature badge */
+.media-badge {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(16, 46, 39, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #F7F4EE;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+.media-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #34D399;
+  box-shadow: 0 0 8px rgba(52, 211, 153, 0.8);
+  flex-shrink: 0;
+}
+
