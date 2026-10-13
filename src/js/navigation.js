@@ -85,13 +85,14 @@ export function initNavigation() {
 export function updateContactLinks() {
   const hasPhone = Boolean(siteConfig.phoneE164);
   const hasWhatsapp = Boolean(siteConfig.whatsappE164);
+  const hasEmail = Boolean(siteConfig.email);
 
   // Phone Call buttons
   document.querySelectorAll('[data-action="call"]').forEach((btn) => {
     if (hasPhone) {
       btn.href = `tel:+${siteConfig.phoneE164}`;
       const textSpan = btn.querySelector('.btn-text');
-      if (textSpan && siteConfig.phoneDisplay) {
+      if (textSpan && siteConfig.phoneDisplay && !btn.classList.contains('mobile-cta-btn')) {
         textSpan.textContent = siteConfig.phoneDisplay;
       }
       btn.addEventListener('click', () => {
@@ -122,6 +123,41 @@ export function updateContactLinks() {
         e.preventDefault();
         showContactNotice('whatsapp');
       });
+    }
+  });
+
+  // Email links
+  document.querySelectorAll('[data-action="email"]').forEach((btn) => {
+    if (hasEmail) {
+      btn.href = `mailto:${siteConfig.email}`;
+      const textSpan = btn.querySelector('.btn-text');
+      if (textSpan) {
+        textSpan.textContent = siteConfig.email;
+      }
+      btn.addEventListener('click', () => {
+        analytics.track('click_email', { cta_location: btn.dataset.location || 'site' });
+      });
+    }
+  });
+
+  // Phone display elements
+  document.querySelectorAll('[data-contact="phone-display"]').forEach((el) => {
+    if (siteConfig.phoneDisplay) {
+      el.textContent = siteConfig.phoneDisplay;
+    }
+  });
+
+  // Email display elements
+  document.querySelectorAll('[data-contact="email-display"]').forEach((el) => {
+    if (siteConfig.email) {
+      el.textContent = siteConfig.email;
+    }
+  });
+
+  // Postal code display elements
+  document.querySelectorAll('[data-contact="postal-display"]').forEach((el) => {
+    if (siteConfig.postalCode) {
+      el.textContent = siteConfig.postalCode;
     }
   });
 

@@ -7,17 +7,17 @@
 export const siteConfig = {
   brandName: "Lucknow PaintCare",
   tagline: "A Better Finish for Every Home.",
-  siteUrl: "", // Set to confirmed production domain (e.g. "https://lucknowpaintcare.in") before launch
+  siteUrl: "https://lucknow-paintcare.vercel.app",
   locale: "en-IN",
   city: "Lucknow",
   region: "Uttar Pradesh",
   country: "IN",
-  phoneDisplay: "", // Set by owner before launch (e.g. "+91 98765 43210")
-  phoneE164: "",    // Digits only with country code (e.g. "919876543210")
-  whatsappE164: "", // Digits only with country code (e.g. "919876543210")
-  email: "",        // Set by owner before launch
+  phoneDisplay: "+91 95806 59559",
+  phoneE164: "919580659559",
+  whatsappE164: "919580659559",
+  email: "lucknowpaintcare@gmail.com",
   streetAddress: "", // Keep empty if operating as a mobile service-area business
-  postalCode: "",
+  postalCode: "226001",
   showStreetAddress: false,
   businessHours: [
     { days: "Monday - Saturday", hours: "09:00 AM - 07:00 PM" }
@@ -42,5 +42,5 @@ export const siteConfig = {
     googleAdsConversionLabel: ""
   },
   // Set to true before deploying live. When false, developer setup notices appear if numbers are blank.
-  productionMode: false
+  productionMode: true
 };
