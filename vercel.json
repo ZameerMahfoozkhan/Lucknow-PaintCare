@@ -6,6 +6,14 @@
     {
       "source": "/googledaa5b26de8b3ee55.html",
       "destination": "/googledaa5b26de8b3ee55.html"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
     }
   ],
   "headers": [
