@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-# Lucknow PaintCare — Lead-Generation Website
+# R J INTERIOR — Lead-Generation Website
 
 **Version:** 1.0  
 **Prepared:** 11 October 2026  
@@ -11,7 +11,7 @@
 
 ## 1. Instructions to Antigravity
 
-Build a complete, polished, production-oriented, SEO-first website for **Lucknow PaintCare**. Treat this document as the source of truth. Make sensible implementation decisions without asking questions unless blocked by a genuinely essential missing detail. Do not stop after generating a homepage design: create the complete requested site structure, responsive layouts, page metadata, reusable components, technical SEO files, lead flows, validation, and a launch README.
+Build a complete, polished, production-oriented, SEO-first website for **R J INTERIOR**. Treat this document as the source of truth. Make sensible implementation decisions without asking questions unless blocked by a genuinely essential missing detail. Do not stop after generating a homepage design: create the complete requested site structure, responsive layouts, page metadata, reusable components, technical SEO files, lead flows, validation, and a launch README.
 
 The website must feel like a real local service business with a considered visual identity—not a generic AI-generated template. Design for homeowners in Lucknow who are deciding whom to trust inside their homes. Clear service information, evidence, communication, and ease of contacting the business matter more than decorative effects.
 
@@ -20,7 +20,7 @@ The website must feel like a real local service business with a considered visua
 1. Build real, crawlable pages with meaningful HTML content in the initial page response. Do not put important service copy only inside JavaScript-rendered widgets.
 2. Make mobile call and WhatsApp actions highly accessible without letting sticky controls cover content.
 3. Never invent the business phone number, WhatsApp number, email, street address, years in business, job count, testimonials, ratings, accreditations, warranties, staff names, project history, prices, or guarantees.
-4. Do not present stock/illustrative photos as completed Lucknow PaintCare projects. Label illustrative imagery appropriately or use it only as general service imagery.
+4. Do not present stock/illustrative photos as completed R J INTERIOR projects. Label illustrative imagery appropriately or use it only as general service imagery.
 5. Provide a central configuration file for business details, domain, service coverage, analytics IDs, and contact options.
 6. Include a launch checklist in `README.md` that clearly identifies the real business details the owner must insert before production.
 7. Do not generate dozens of thin locality pages. Only publish locality landing pages when the owner can genuinely serve the location and supply useful, locally specific information or project evidence.
@@ -32,7 +32,7 @@ The website must feel like a real local service business with a considered visua
 
 ### 2.1 Brand
 
-- **Public-facing brand:** Lucknow PaintCare
+- **Public-facing brand:** R J INTERIOR
 - **Tagline:** A Better Finish for Every Home.
 - **Primary market:** Lucknow, Uttar Pradesh, India
 - **Business category:** Home painting and related residential painting services
@@ -40,7 +40,7 @@ The website must feel like a real local service business with a considered visua
 - **Primary conversion:** Qualified call or WhatsApp enquiry
 - **Secondary conversions:** Request an estimate, ask for a site visit, view service details, review relevant work examples
 
-Use the exact brand spelling **Lucknow PaintCare** in headings and brand assets. The spelling “locknowpaintcare” must not appear in public-facing copy. The final registered domain is **not confirmed in this PRD**. Keep it configurable and do not deploy a guessed canonical domain.
+Use the exact brand spelling **R J INTERIOR** in headings and brand assets. The final registered domain is **not confirmed in this PRD**. Keep it configurable and do not deploy a guessed canonical domain.
 
 ### 2.2 Business model assumptions
 
@@ -54,7 +54,7 @@ Create `src/js/site-config.js` or an equivalent single-source configuration file
 
 ```js
 export const siteConfig = {
-  brandName: "Lucknow PaintCare",
+  brandName: "R J INTERIOR",
   tagline: "A Better Finish for Every Home.",
   siteUrl: "", // Set to the confirmed production domain before launch
   locale: "en-IN",
@@ -227,7 +227,7 @@ Use warm, realistic photography of freshly painted Indian home interiors, wall p
 
 Image rules:
 - Use original photos supplied by the business as the primary future source of trust.
-- If genuine business work photos are unavailable at build time, use appropriately licensed illustrative stock images locally stored in the project. Do not label them “our projects” or present them as work completed by Lucknow PaintCare.
+- If genuine business work photos are unavailable at build time, use appropriately licensed illustrative stock images locally stored in the project. Do not label them “our projects” or present them as work completed by R J INTERIOR.
 - Do not hotlink images from unstable third-party URLs.
 - Crop intentionally with `object-position`; do not stretch or distort photographs.
 - Use descriptive filenames and contextual alt text where images communicate meaningful information; use empty alt text for purely decorative imagery.
@@ -254,7 +254,7 @@ Use readable lowercase paths, hyphen separators, and consistent trailing-slash p
 5. `/services/repainting-lucknow/` — Repainting
 6. `/painting-cost-lucknow/` — Painting cost guide and estimate factors
 7. `/projects/` — Project gallery / work examples; clearly distinguish illustrative imagery from real work
-8. `/about/` — About Lucknow PaintCare and working process
+8. `/about/` — About R J INTERIOR and working process
 9. `/contact/` — Enquiry / estimate request
 10. `/faq/` — Helpful customer questions
 11. `/privacy-policy/` — Privacy policy tailored to implemented data handling
@@ -321,8 +321,8 @@ Include:
 
 **Intent:** Capture broad local commercial searches and turn visitors into leads.
 
-**Suggested SEO title:** `Home Painting Services in Lucknow | Lucknow PaintCare`  
-**Suggested meta description:** `Looking for home painting services in Lucknow? Explore interior painting, exterior painting and repainting options, then request an estimate from Lucknow PaintCare.`
+**Suggested SEO title:** `Home Painting Services in Lucknow | R J INTERIOR`  
+**Suggested meta description:** `Looking for home painting services in Lucknow? Explore interior painting, exterior painting and repainting options, then request an estimate from R J INTERIOR.`
 
 **Primary keyword themes:** home painting services in Lucknow; house painting services in Lucknow; house painters in Lucknow; painters in Lucknow; painting contractors in Lucknow.
 
@@ -351,13 +351,13 @@ Do not use a fake review carousel, made-up numbers such as “500+ happy custome
 
 ### 8.2 Services overview `/services/`
 
-**SEO title:** `Home Painting Services in Lucknow | Lucknow PaintCare`
+**SEO title:** `Home Painting Services in Lucknow | R J INTERIOR`
 
 Provide a useful overview and distinguish each service. Each service card should have its own specific description rather than repeating one generic paragraph. State which tasks are included only after business confirmation. Link to detailed pages.
 
 ### 8.3 Interior painting page
 
-**SEO title:** `Interior Painting Services in Lucknow | Lucknow PaintCare`  
+**SEO title:** `Interior Painting Services in Lucknow | R J INTERIOR`  
 **Suggested meta description:** `Explore interior home painting in Lucknow, from wall preparation and finish selection to room and ceiling painting. Request an estimate for your home.`
 
 **Page outline:**
@@ -374,13 +374,13 @@ Provide a useful overview and distinguish each service. Each service card should
 
 ### 8.4 Exterior painting page
 
-**SEO title:** `Exterior House Painting in Lucknow | Lucknow PaintCare`
+**SEO title:** `Exterior House Painting in Lucknow | R J INTERIOR`
 
 Cover external walls, surface condition, weather exposure, preparation, access, finish/material selection, and factors that affect project requirements. Never promise waterproofing or a particular service life unless the actual product/system and warranty terms support it. Explain that final recommendations depend on site condition and selected materials.
 
 ### 8.5 Repainting page
 
-**SEO title:** `House Repainting Services in Lucknow | Lucknow PaintCare`
+**SEO title:** `House Repainting Services in Lucknow | R J INTERIOR`
 
 Explain repainting of lived-in homes, refresh projects, changing colours, repairing surface defects, and preparation before repainting. Address the difference between a light refresh and a job requiring more substantial surface repair. Link to interior/exterior service pages and the cost guide.
 
@@ -487,7 +487,7 @@ Only create a page when the team can genuinely serve the area and there is enoug
 
 Use `https://wa.me/{E164_DIGITS}?text={URL_ENCODED_MESSAGE}`. Strip spaces and punctuation from the phone number and validate the country code format. Do not add a plus sign in the path. Prefill a concise message, for example:
 
-> Hello Lucknow PaintCare, I would like an estimate for painting work. Area/locality: [value]. Property type: [value]. Service: [value]. Project details: [value].
+> Hello R J INTERIOR, I would like an estimate for painting work. Area/locality: [value]. Property type: [value]. Service: [value]. Project details: [value].
 
 Use the user's entered values safely and encode the entire message. Open in the expected browsing context; do not silently submit personal details to a server. Clearly tell the user that WhatsApp will open and that they can review/edit the message before sending.
 
@@ -625,7 +625,7 @@ No mass-generation of nearly identical area pages or blog articles. Each page sh
 
 ## 11. AI search visibility and citation-readiness (AEO/GEO)
 
-The goal is to make Lucknow PaintCare easy for AI-assisted search systems to discover, interpret, corroborate, and cite when relevant. This is an eligibility and content-quality strategy—not a promise of citation or recommendation.
+The goal is to make R J INTERIOR easy for AI-assisted search systems to discover, interpret, corroborate, and cite when relevant. This is an eligibility and content-quality strategy—not a promise of citation or recommendation.
 
 ### 11.1 Crawl access
 
@@ -669,7 +669,7 @@ Keep the brand name, public phone number, service area, logo, website URL, and r
 
 - Establish a baseline after the domain is live and indexed.
 - Periodically test a fixed set of natural queries in Google AI features, ChatGPT Search, and Microsoft Copilot, such as “how do I choose a home painter in Lucknow?”, “what changes house painting cost in Lucknow?”, and other relevant customer questions.
-- Record whether Lucknow PaintCare is cited, which URL is cited, the query/date, the context, and whether the citation is accurate. Do not treat anecdotal tests as complete performance measurement because results can vary by location and query.
+- Record whether R J INTERIOR is cited, which URL is cited, the query/date, the context, and whether the citation is accurate. Do not treat anecdotal tests as complete performance measurement because results can vary by location and query.
 - Use Bing Webmaster Tools AI Performance reporting when it is available to the verified property. It can surface supported AI citation activity and grounding queries; availability/reporting scope can change.
 - Use Search Console for organic search performance and Google's available reporting for AI-related search features where shown; don't assume there is a standalone report for every AI interaction.
 - Improve pages based on missing information, unclear content, crawl problems, weak original evidence, and actual lead performance—not solely whether one AI answer cites the site.

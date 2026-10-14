@@ -1,7 +1,7 @@
-# Lucknow PaintCare — Website & Lead Generation Engine
+# R J INTERIOR — Website & Lead Generation Engine
 
 > **A Better Finish for Every Home.**  
-> Official website and lead-generation platform for **Lucknow PaintCare**, a residential painting service based in Lucknow, Uttar Pradesh, India.
+> Official website and lead-generation platform for **R J INTERIOR**, a residential painting service based in Lucknow, Uttar Pradesh, India.
 
 ---
 
@@ -30,14 +30,14 @@ All business details, telephone numbers, WhatsApp routing, analytics IDs, and pr
 
 ```javascript
 export const siteConfig = {
-  brandName: "Lucknow PaintCare",
+  brandName: "R J INTERIOR",
   legalName: "RAM PRASAD JAYASWAL",
   tradeName: "R J INTERIOR",
   constitution: "Proprietorship",
   gstin: "09CSUPJ6245A1ZI",
   pan: "CSUPJ6245A",
   tagline: "A Better Finish for Every Home.",
-  siteUrl: "https://lucknow-paintcare.vercel.app",
+  siteUrl: "https://r-j-interior.vercel.app",
   locale: "en-IN",
   city: "Lucknow",
   region: "Uttar Pradesh",
@@ -86,7 +86,7 @@ Before deploying this website to a live domain, the business owner must complete
   - Enter the verified business mobile number in `phoneE164` and `phoneDisplay`.
   - Enter the verified business WhatsApp number in `whatsappE164`.
 - [ ] **2. Confirm Production Domain:**
-  - Set `siteUrl` to your live domain (e.g. `https://lucknowpaintcare.in`).
+  - Set `siteUrl` to your live domain (e.g. `https://r-j-interior.vercel.app`).
   - Update `sitemap.xml` and `robots.txt` with this canonical domain.
 - [ ] **3. Switch `productionMode` to `true`:**
   - This hides the development-mode configuration banners and enables live contact routing.
@@ -96,7 +96,7 @@ Before deploying this website to a live domain, the business owner must complete
 - [ ] **5. Add Real Completed Project Photographs:**
   - As projects across Lucknow are completed with client consent, add photographs to `assets/images/` and update `/projects/index.html`.
 - [ ] **6. Search Engine & AI Search Registration:**
-  - Submit `https://lucknowpaintcare.in/sitemap.xml` in **Google Search Console**.
+  - Submit `https://r-j-interior.vercel.app/sitemap.xml` in **Google Search Console**.
   - Submit your site in **Bing Webmaster Tools** (this powers Microsoft Copilot and Bing AI citations).
   - Verify your **Google Business Profile** (Service-Area Business) with consistent name, phone, and service area.
 

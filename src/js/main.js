@@ -1,5 +1,5 @@
 /**
- * Lucknow PaintCare Main Entrypoint
+ * R J INTERIOR Main Entrypoint
  * Orchestrates modules, injects configuration values, and handles UI events.
  */
 

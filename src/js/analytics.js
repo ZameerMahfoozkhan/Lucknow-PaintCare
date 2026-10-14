@@ -1,5 +1,5 @@
 /**
- * Lucknow PaintCare Analytics & Event Measurement
+ * R J INTERIOR Analytics & Event Measurement
  * Handles conversion signals safely without recording PII.
  * (PRD Section 3.3, Section 15)
  */
@@ -69,7 +69,7 @@ export const analytics = {
 
     // Custom browser event for extensibility
     try {
-      window.dispatchEvent(new CustomEvent('paintcare_track', {
+      window.dispatchEvent(new CustomEvent('rjinterior_track', {
         detail: { event: eventName, ...sanitizedParams }
       }));
     } catch (e) {

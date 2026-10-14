@@ -1,5 +1,5 @@
 /**
- * Lucknow PaintCare Estimate Request & Lead Generator
+ * R J INTERIOR Estimate Request & Lead Generator
  * Validates requirements, prevents spam via honeypot, formats WhatsApp message cleanly.
  * (PRD Section 9.1 - 9.3)
  */
@@ -99,7 +99,7 @@ function handleSubmit(form) {
 
   // Construct structured WhatsApp message (PRD Section 9.2)
   const messageLines = [
-    `*Hello Lucknow PaintCare*, I would like an estimate for painting work:`,
+    `*Hello R J INTERIOR*, I would like an estimate for painting work:`,
     ``,
     `• *Name:* ${name}`,
     `• *Phone:* ${phone}`,
@@ -163,7 +163,7 @@ function renderSuccessMessage(form, rawMessage, whatsappUrl) {
       Ready to send via WhatsApp
     </h4>
     <p style="font-size: var(--text-sm); margin-bottom: 1rem;">
-      Your project details are prepared. Click the button below to review and send them directly to Lucknow PaintCare on WhatsApp:
+      Your project details are prepared. Click the button below to review and send them directly to R J INTERIOR on WhatsApp:
     </p>
     <a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block" style="margin-bottom: 0.75rem;">
       Open WhatsApp to Send Details

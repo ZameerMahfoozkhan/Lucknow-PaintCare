@@ -1,5 +1,5 @@
 /**
- * Lucknow PaintCare Navigation & Header Controller
+ * R J INTERIOR Navigation & Header Controller
  * Handles mobile drawer, sticky header, dynamic contact hooks, and responsive UX.
  */
 
@@ -110,7 +110,7 @@ export function updateContactLinks() {
   document.querySelectorAll('[data-action="whatsapp"]').forEach((btn) => {
     if (hasWhatsapp) {
       const defaultText = encodeURIComponent(
-        `Hello Lucknow PaintCare, I would like to enquire about home painting services in Lucknow.`
+        `Hello ${siteConfig.brandName}, I would like to enquire about home painting services in Lucknow.`
       );
       btn.href = `https://wa.me/${siteConfig.whatsappE164}?text=${defaultText}`;
       btn.target = '_blank';

@@ -1,7 +1,7 @@
 {
-  "name": "lucknow-paintcare-website",
+  "name": "r-j-interior-website",
   "version": "1.0.0",
-  "description": "Production website for Lucknow PaintCare - residential home painting service in Lucknow, UP, India.",
+  "description": "Production website for R J INTERIOR - residential home painting service in Lucknow, UP, India.",
   "scripts": {
     "dev": "npx -y serve -l 3000 .",
     "start": "npx -y serve -l 3000 ."
@@ -12,6 +12,6 @@
     "house-painters",
     "interior-painting"
   ],
-  "author": "Lucknow PaintCare",
+  "author": "R J INTERIOR",
   "license": "ISC"
 }

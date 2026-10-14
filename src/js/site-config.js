@@ -1,11 +1,11 @@
 /**
- * Lucknow PaintCare Central Configuration
+ * R J INTERIOR Central Configuration
  * Source of truth for business contact, domain, service coverage, and analytics.
  * (PRD Section 2.3 & Section 15)
  */
 
 export const siteConfig = {
-  brandName: "Lucknow PaintCare",
+  brandName: "R J INTERIOR",
   legalName: "RAM PRASAD JAYASWAL",
   tradeName: "R J INTERIOR",
   constitution: "Proprietorship",
@@ -14,7 +14,7 @@ export const siteConfig = {
   registrationType: "Regular (Form GST REG-06)",
   registrationDate: "2024-05-31",
   tagline: "A Better Finish for Every Home.",
-  siteUrl: "https://lucknow-paintcare.vercel.app",
+  siteUrl: "https://r-j-interior.vercel.app",
   locale: "en-IN",
   city: "Lucknow",
   district: "Lucknow",

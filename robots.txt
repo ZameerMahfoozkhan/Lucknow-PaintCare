@@ -9,4 +9,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://lucknow-paintcare.vercel.app/sitemap.xml
+Sitemap: https://r-j-interior.vercel.app/sitemap.xml
