@@ -413,6 +413,7 @@ main {
   letter-spacing: 0.05em;
 }
 
+.footer-legal-bar,
 .site-footer .footer-legal-bar {
   margin-top: var(--space-xl);
   margin-bottom: var(--space-lg);
@@ -429,10 +430,12 @@ main {
   box-sizing: border-box;
 }
 
+.footer-legal-bar strong,
 .site-footer .footer-legal-bar strong {
   color: #FFFFFF;
 }
 
+.gstin-code,
 .site-footer .footer-legal-bar .gstin-code {
   display: inline-block;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -446,6 +449,7 @@ main {
   word-break: break-all;
 }
 
+.legal-badge,
 .site-footer .footer-legal-bar .legal-badge {
   display: inline-flex;
   align-items: center;
