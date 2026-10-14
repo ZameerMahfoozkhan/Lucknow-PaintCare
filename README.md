@@ -31,19 +31,24 @@ All business details, telephone numbers, WhatsApp routing, analytics IDs, and pr
 ```javascript
 export const siteConfig = {
   brandName: "Lucknow PaintCare",
+  legalName: "RAM PRASAD JAYASWAL",
+  tradeName: "R J INTERIOR",
+  constitution: "Proprietorship",
+  gstin: "09CSUPJ6245A1ZI",
+  pan: "CSUPJ6245A",
   tagline: "A Better Finish for Every Home.",
-  siteUrl: "", // e.g. "https://lucknowpaintcare.in" (set before production)
+  siteUrl: "https://lucknow-paintcare.vercel.app",
   locale: "en-IN",
   city: "Lucknow",
   region: "Uttar Pradesh",
   country: "IN",
-  phoneDisplay: "", // e.g. "+91 98765 43210"
-  phoneE164: "",    // e.g. "919876543210" (digits only with country code)
-  whatsappE164: "", // e.g. "919876543210" (digits only with country code)
+  phoneDisplay: "+91 95806 59559",
+  phoneE164: "919580659559",
+  whatsappE164: "919580659559",
   email: "",
-  streetAddress: "", // Keep empty if service-area business without public store
-  postalCode: "",
-  showStreetAddress: false,
+  streetAddress: "268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh",
+  postalCode: "226004",
+  showStreetAddress: true,
   businessHours: [
     { days: "Monday - Saturday", hours: "09:00 AM - 07:00 PM" }
   ],

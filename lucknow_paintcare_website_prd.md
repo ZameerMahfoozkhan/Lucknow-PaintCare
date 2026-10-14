@@ -185,17 +185,19 @@ Prefer a distinctive composition, strong grid, generous whitespace, deliberate t
 
 Use these as starting tokens and validate contrast:
 
-- `--color-ink: #202A25` — primary text
-- `--color-forest: #183F35` — brand/primary actions
-- `--color-forest-deep: #102E27` — footer/dark section
-- `--color-ivory: #F7F4EE` — main warm background
-- `--color-paper: #FFFFFF` — content surfaces
-- `--color-sage: #E4EBE3` — soft section background
-- `--color-clay: #C76A4A` — controlled warm accent
-- `--color-stone: #D9D5CC` — dividers/borders
-- `--color-muted: #66716B` — secondary copy
-- `--color-success: #246B45` — success feedback only
-- `--color-error: #B42318` — error feedback
+- `--color-ink: #1E293B` — primary text (crisp dark slate)
+- `--color-forest: #1A365D` — brand/primary actions (Royal Architectural Navy)
+- `--color-forest-deep: #0B192C` — footer/dark section (Deep Midnight Navy)
+- `--color-ivory: #F8FAFC` — main background (crisp studio alabaster)
+- `--color-paper: #FFFFFF` — content surfaces / cards
+- `--color-sage: #EEF4F8` — soft section background (slate-ice tint)
+- `--color-clay: #D97706` — high-conversion accent (Warm Amber Ochre)
+- `--color-clay-hover: #B45309` — warm ochre hover
+- `--color-stone: #E2E8F0` — dividers/borders
+- `--color-muted: #64748B` — secondary copy (slate cool gray)
+- `--color-success: #16A34A` — success feedback
+- `--color-error: #DC2626` — error feedback
+- `--color-warning: #D97706` — warning feedback
 
 Do not use accent colours for long body text unless contrast remains accessible. Use a consistent token system rather than one-off colours scattered through components.
 
@@ -494,8 +496,8 @@ If WhatsApp is not configured, remove the broken CTA and present the configured 
 ### 9.3 Estimate form fields
 
 Required:
-- Name
-- Phone number
+- Name 
+- Phone number 9580659559
 - Area/locality in Lucknow
 - Service type (interior, exterior, repainting, other)
 - Brief description or optional room/property information
