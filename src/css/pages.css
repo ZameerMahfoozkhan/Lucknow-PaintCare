@@ -755,7 +755,16 @@
   background-color: var(--color-paper);
   border: 1px solid var(--color-stone);
   border-radius: var(--radius-md);
-  padding: var(--space-xl);
+  padding: 1.25rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .quote-scope-card {
+    padding: var(--space-xl);
+  }
 }
 
 .checklist {

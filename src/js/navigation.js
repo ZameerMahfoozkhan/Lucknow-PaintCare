@@ -161,6 +161,34 @@ export function updateContactLinks() {
     }
   });
 
+  // GSTIN display elements
+  document.querySelectorAll('[data-contact="gstin-display"]').forEach((el) => {
+    if (siteConfig.gstin) {
+      el.textContent = siteConfig.gstin;
+    }
+  });
+
+  // Legal name display elements
+  document.querySelectorAll('[data-contact="legal-name-display"]').forEach((el) => {
+    if (siteConfig.legalName) {
+      el.textContent = siteConfig.legalName;
+    }
+  });
+
+  // Trade name display elements
+  document.querySelectorAll('[data-contact="trade-name-display"]').forEach((el) => {
+    if (siteConfig.tradeName) {
+      el.textContent = siteConfig.tradeName;
+    }
+  });
+
+  // Address display elements
+  document.querySelectorAll('[data-contact="address-display"]').forEach((el) => {
+    if (siteConfig.streetAddress) {
+      el.textContent = `${siteConfig.streetAddress}, ${siteConfig.city}, ${siteConfig.region} - ${siteConfig.postalCode}`;
+    }
+  });
+
   // Mobile CTA bar adjustment if channels are missing
   const mobileBar = document.querySelector('.mobile-cta-bar');
   if (mobileBar && !hasPhone && !hasWhatsapp && siteConfig.productionMode) {

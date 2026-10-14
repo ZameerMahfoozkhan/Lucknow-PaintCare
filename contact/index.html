@@ -47,6 +47,32 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact & Estimate | Lucknow PaintCare",
+    "description": "Official contact and quote request page for Lucknow PaintCare, operated by R J INTERIOR (Prop. RAM PRASAD JAYASWAL, GSTIN: 09CSUPJ6245A1ZI).",
+    "url": "https://lucknow-paintcare.vercel.app/contact/",
+    "mainEntity": {
+      "@type": "HousePainter",
+      "name": "Lucknow PaintCare",
+      "legalName": "RAM PRASAD JAYASWAL",
+      "alternateName": "R J INTERIOR",
+      "taxID": "09CSUPJ6245A1ZI",
+      "vatID": "09CSUPJ6245A1ZI",
+      "telephone": "+919580659559",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh",
+        "addressLocality": "Lucknow",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "226004",
+        "addressCountry": "IN"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -171,7 +197,7 @@
                   </datalist>
                 </div>
 
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="form-row-2col">
                   <div class="form-group">
                     <label class="form-label" for="contact-service">Service Required <span class="required">*</span></label>
                     <select id="contact-service" name="service" class="form-select" required>
@@ -195,7 +221,7 @@
                   </div>
                 </div>
 
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="form-row-2col">
                   <div class="form-group">
                     <label class="form-label" for="contact-size">Approximate Size</label>
                     <select id="contact-size" name="size_bhk" class="form-select">
@@ -240,36 +266,43 @@
             <div style="margin-bottom: var(--space-2xl);">
               <h3>Fast Direct Communication</h3>
               <p style="font-size: var(--text-sm); line-height: 1.6; color: var(--color-muted); margin-bottom: 1.25rem;">
-                Prefer not to fill a form? You can connect with us directly by WhatsApp, telephone, or email:
+                Prefer not to fill a form? You can connect with us directly by WhatsApp or telephone:
               </p>
 
               <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-                <a href="#" class="btn btn-whatsapp btn-lg" data-action="whatsapp" data-location="contact_direct">
+                <a href="#" class="btn btn-whatsapp btn-lg btn-block" data-action="whatsapp" data-location="contact_direct">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/></svg>
-                  Message on WhatsApp (+91 95806 59559)
+                  <span>Message on WhatsApp (+91 95806 59559)</span>
                 </a>
-                <a href="tel:+919580659559" class="btn btn-secondary btn-lg" data-action="call" data-location="contact_direct">
+                <a href="tel:+919580659559" class="btn btn-secondary btn-lg btn-block" data-action="call" data-location="contact_direct">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
                   <span class="btn-text">Call +91 95806 59559</span>
-                </a>
-                <a href="mailto:lucknowpaintcare@gmail.com" class="btn btn-ghost btn-lg" data-action="email" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; border: 1px solid var(--color-stone); font-size: 0.95rem;">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                  <span class="btn-text">lucknowpaintcare@gmail.com</span>
                 </a>
               </div>
             </div>
 
-            <div class="card" style="background-color: var(--color-paper); padding: 1.5rem; margin-bottom: 1.5rem;">
-              <h4 style="color: var(--color-forest-deep); margin-bottom: 0.5rem;">Operating As a Mobile Service-Area Business</h4>
-              <p style="font-size: var(--text-xs); color: var(--color-muted); line-height: 1.6; margin-bottom: 0.75rem;">
-                Because home painting is performed on-site at your property, we operate as a dedicated service-area business traveling directly to client premises across Lucknow. We do not require you to visit a commercial showroom.
+            <div class="card" style="background-color: var(--color-paper); margin-bottom: 1.5rem; border: 1px solid var(--color-stone);">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
+                <h4 style="color: var(--color-forest-deep); margin-bottom: 0; font-size: var(--text-base); word-break: break-word;">
+                  Official Business Registration & Legal Entity
+                </h4>
+                <span class="badge badge-forest" style="font-size: 0.7rem; padding: 2px 8px;">GST Verified</span>
+              </div>
+              <p style="font-size: var(--text-xs); color: var(--color-muted); line-height: 1.6; margin-bottom: 1rem;">
+                Lucknow PaintCare is the residential house painting brand operated by <strong>R J INTERIOR</strong>, registered with the Government of India under Form GST REG-06.
               </p>
-              <div style="font-size: var(--text-xs); color: var(--color-ink); line-height: 1.7;">
-                <strong>Service Hours:</strong> Monday – Saturday: 9:00 AM – 7:00 PM<br>
-                <strong>City & Region:</strong> Lucknow, Uttar Pradesh, India<br>
-                <strong>Postal Code:</strong> 226001<br>
-                <strong>Direct Phone / WhatsApp:</strong> +91 95806 59559<br>
-                <strong>Direct Email:</strong> lucknowpaintcare@gmail.com
+              <div style="display: grid; grid-template-columns: 1fr; gap: 0.55rem; font-size: var(--text-xs); color: var(--color-ink); line-height: 1.5; background: #FAF8F4; padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--color-stone); word-break: break-word; overflow-wrap: break-word;">
+                <div><strong>Legal Name:</strong> RAM PRASAD JAYASWAL</div>
+                <div><strong>Trade Name:</strong> R J INTERIOR (Operating as Lucknow PaintCare)</div>
+                <div><strong>Constitution of Business:</strong> Proprietorship</div>
+                <div><strong>GSTIN (Registration No.):</strong> <code style="font-size: 0.82rem; font-weight: 700; color: var(--color-forest); background: #E8EFEA; padding: 2px 6px; border-radius: 3px; word-break: break-all;">09CSUPJ6245A1ZI</code></div>
+                <div><strong>Registration Type:</strong> Regular &bull; Active &bull; Form GST REG-06</div>
+                <div><strong>Registered Principal Place of Business:</strong><br>
+                  Building No. 268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh, Lucknow, Uttar Pradesh – 226004
+                </div>
+                <div><strong>Operating Model:</strong> On-site residential service across Lucknow (Premises inspection provided at your home)</div>
+                <div><strong>Working Hours:</strong> Monday – Saturday: 9:00 AM – 7:00 PM</div>
+                <div><strong>Direct Communication:</strong> Phone & WhatsApp: +91 95806 59559</div>
               </div>
             </div>
 
@@ -327,17 +360,17 @@
         <div class="footer-col">
           <h4>Contact & Estimates</h4>
           <p style="font-size: var(--text-sm); margin-bottom: 0.75rem;">
-            Direct phone, WhatsApp & email for homeowners across Lucknow.
+            Direct phone & WhatsApp for homeowners across Lucknow.
           </p>
           <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: var(--text-xs); margin-bottom: 1rem;">
             <a href="tel:+919580659559" style="color: var(--color-paper); text-decoration: none; display: flex; align-items: center; gap: 0.4rem;">
               <span>📞</span> +91 95806 59559
             </a>
-            <a href="mailto:lucknowpaintcare@gmail.com" style="color: var(--color-paper); text-decoration: none; display: flex; align-items: center; gap: 0.4rem;">
-              <span>✉️</span> lucknowpaintcare@gmail.com
-            </a>
-            <span style="color: #A3B8B0;">
-              PIN: 226001, Lucknow, UP
+            <div style="color: #A3B8B0; line-height: 1.4; margin-top: 0.2rem;">
+              <span>📍</span> 268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh, Lucknow, Uttar Pradesh – 226004
+            </div>
+            <span style="color: #A3B8B0; margin-top: 0.2rem;">
+              GSTIN: 09CSUPJ6245A1ZI
             </span>
           </div>
           <div style="display: flex; flex-direction: column; gap: 0.5rem;">
@@ -347,12 +380,29 @@
         </div>
       </div>
 
+      <!-- Legal & Business Verification (Google Business Operations & GST Compliance) -->
+      <div class="footer-legal-bar">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+          <div>
+            <strong>Legal Entity:</strong> RAM PRASAD JAYASWAL (Proprietorship) &nbsp;|&nbsp;
+            <strong>Trade Name:</strong> R J INTERIOR (Operating as Lucknow PaintCare)
+          </div>
+          <div>
+            <strong>GSTIN:</strong> <span class="gstin-code">09CSUPJ6245A1ZI</span> &nbsp;|&nbsp;
+            <span class="legal-badge">✓ Govt. GST Registered</span>
+          </div>
+        </div>
+        <div style="color: #9BB0A7;">
+          <strong>Registered Principal Place of Business:</strong> 268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh, Lucknow, Uttar Pradesh – 226004
+        </div>
+      </div>
+
       <div class="footer-bottom">
-        <div>&copy; <span data-year>2026</span> Lucknow PaintCare. All rights reserved.</div>
-        <div style="display: flex; gap: 1.25rem;">
+        <div>&copy; <span data-year>2026</span> Lucknow PaintCare — A unit of R J INTERIOR (Proprietor: Ram Prasad Jayaswal). All rights reserved.</div>
+        <div style="display: flex; gap: 1.25rem; flex-wrap: wrap;">
           <a href="/privacy-policy/">Privacy Policy</a>
           <a href="/faq/">FAQ</a>
-          <a href="/contact/">Contact Us</a>
+          <a href="/contact/">Contact & Verification</a>
         </div>
       </div>
     </div>

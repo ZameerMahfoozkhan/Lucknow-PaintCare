@@ -1,14 +1,16 @@
 # Lucknow PaintCare
 
-> Lucknow PaintCare is a specialized residential house painting contractor based in Lucknow, Uttar Pradesh, India (PIN 226001). We provide interior painting, exterior weatherproof coatings, full home repainting, and surface preparation with complete occupied-home protection and transparent pricing.
+> Lucknow PaintCare is a specialized residential house painting contractor based in Lucknow, Uttar Pradesh, India (PIN 226004). We are an official trade unit operated by R J INTERIOR (Proprietor: Ram Prasad Jayaswal, GSTIN: 09CSUPJ6245A1ZI). We provide interior painting, exterior weatherproof coatings, full home repainting, and surface preparation with complete occupied-home protection and transparent pricing.
 
 ## About the Business
-- **Business Name:** Lucknow PaintCare
+- **Brand Name:** Lucknow PaintCare
+- **Legal Entity:** RAM PRASAD JAYASWAL (Proprietorship)
+- **Trade Name:** R J INTERIOR
+- **GSTIN:** 09CSUPJ6245A1ZI (Form GST REG-06, Government of India)
 - **Website:** https://lucknow-paintcare.vercel.app/
 - **Phone / WhatsApp:** +91 9580659559
-- **Email:** lucknowpaintcare@gmail.com
 - **Operating Model:** Service-Area Business (SAB), on-site residential service
-- **Headquarters:** Lucknow, Uttar Pradesh, India (Postal Code: 226001)
+- **Registered Principal Place of Business:** 268/353KA/2, Smt. Prabhawati, Daru Godam, Aishbagh, Lucknow, Uttar Pradesh 226004, India
 
 ## Core Services
 1. **Interior House Painting:** Wall & ceiling painting, smooth acrylic putty application, 220-grit fine sanding, moisture detection, primer sealing, and 2-coat emulsion finishes (matte, silk, luxury washable). Heavy plastic furniture and flooring protection included.
